@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Madlibs Game</title>
+  </head>
+  <body>
+    <form>
+      What's your name? <input type="text" name="name"><br>
+    </form>
+    <form>
+      Pick a color 
+      <select name="color">
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="purple">Purple</option>
+        <option value="pink">Pink</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </form>
+    <form>
+      Pick a noun <input type="text" name="noun"><br>
+      Pick an adjective <input type="text" name="adjective"><br>
+    </form>
+    <form action="/madlibs" method = "GET">
+      <input type="submit">
+    </form>
+  </body>
+</html>
